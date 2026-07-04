@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Website Crafter - Portfolio</title>
+  <meta name="description" content="Explore our portfolio of Shopify stores, business websites, portfolios, e-commerce sites, and landing pages built by Website Crafter." />
+  <meta name="keywords" content="Website Crafter Portfolio, Shopify Projects, Web Design Portfolio, Varanasi Agency" />
+  <meta name="author" content="Website Crafter" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Projects | Website Crafter - Portfolio" />
+  <meta property="og:description" content="Explore our portfolio of premium websites and digital solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/WC_HD.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Projects | Website Crafter - Portfolio" />
+  <meta name="twitter:description" content="Explore our portfolio of premium websites and digital solutions." />
+  <meta name="twitter:image" content="/images/WC_HD.png" />
+
+  <link rel="icon" type="image/png" href="/images/WC_HD.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/WC_Logo.png" alt="Website Crafter Logo" class="nav-logo-img" />
+        <span class="nav-logo-text">Website Crafter</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+        <li><a href="index.html#services" class="nav-link">Services</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="index.html#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="nav-cta">Let's Talk</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-menu-list">
+      <li><a href="index.html#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="index.html#about" class="mobile-nav-link">About</a></li>
+      <li><a href="index.html#services" class="mobile-nav-link">Services</a></li>
+      <li><a href="projects.html" class="mobile-nav-link">Projects</a></li>
+      <li><a href="index.html#reviews" class="mobile-nav-link">Reviews</a></li>
+      <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="mobile-nav-cta">Let's Talk</a>
+  </div>
+
+  <!-- Projects Hero -->
+  <section class="projects-hero">
+    <div class="projects-hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-gradient"></div>
+    </div>
+    <div class="container">
+      <div class="projects-hero-content animate-fade-up">
+        <span class="section-tag">Portfolio</span>
+        <h1 class="projects-hero-title">Our Projects</h1>
+        <p class="projects-hero-desc">Browse through our collection of premium websites and digital solutions crafted for clients worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects-page" id="projects">
+    <div class="container">
+      <!-- Search and Filter -->
+      <div class="projects-controls animate-fade-up">
+        <div class="projects-search">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" id="projectSearch" class="search-input" placeholder="Search projects..." />
+        </div>
+        <div class="projects-filters" id="projectFilters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="shopify">Shopify</button>
+          <button class="filter-btn" data-filter="business">Business Website</button>
+          <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+          <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+          <button class="filter-btn" data-filter="landing">Landing Page</button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projectsGrid">
+        <a href="https://banaraswardrobe.com" target="_blank" class="project-item" data-category="shopify ecommerce">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/5650026/pexels-photo-5650026.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Banaras Wardrobe" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Visit Website</span>
+              <svg class="project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Banaras Wardrobe</h3>
+            <div class="project-tags">
+              <span class="project-tag">Shopify</span>
+              <span class="project-tag">E-commerce</span>
+            </div>
+            <p class="project-desc">A premium fashion e-commerce store built on Shopify with custom theme development and conversion optimization.</p>
+          </div>
+        </a>
+
+        <div class="project-item" data-category="business">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Business Website" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Business Website</h3>
+            <div class="project-tags">
+              <span class="project-tag">Business Website</span>
+            </div>
+            <p class="project-desc">Professional corporate website with modern design, responsive layout, and integrated contact solutions.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="portfolio">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Portfolio Website" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Creative Portfolio</h3>
+            <div class="project-tags">
+              <span class="project-tag">Portfolio</span>
+            </div>
+            <p class="project-desc">Stunning portfolio website for creative professionals showcasing work with smooth animations.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="landing">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Landing Page" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Product Launch</h3>
+            <div class="project-tags">
+              <span class="project-tag">Landing Page</span>
+            </div>
+            <p class="project-desc">High-converting landing page designed for product launches with lead capture and analytics integration.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="shopify ecommerce">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Shopify Store" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Shopify Store</h3>
+            <div class="project-tags">
+              <span class="project-tag">Shopify</span>
+              <span class="project-tag">E-commerce</span>
+            </div>
+            <p class="project-desc">Full-featured Shopify store with custom checkout, inventory management, and marketing integrations.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="business">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Agency Website" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Agency Website</h3>
+            <div class="project-tags">
+              <span class="project-tag">Business Website</span>
+            </div>
+            <p class="project-desc">Modern agency website with team profiles, service showcases, and client case studies.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="portfolio">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Designer Portfolio" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Designer Portfolio</h3>
+            <div class="project-tags">
+              <span class="project-tag">Portfolio</span>
+            </div>
+            <p class="project-desc">Minimalist portfolio for a graphic designer with project galleries and smooth transitions.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="landing">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800" alt="SaaS Landing" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">SaaS Landing Page</h3>
+            <div class="project-tags">
+              <span class="project-tag">Landing Page</span>
+            </div>
+            <p class="project-desc">Conversion-optimized landing page for a SaaS product with feature highlights and pricing tables.</p>
+          </div>
+        </div>
+
+        <div class="project-item" data-category="ecommerce">
+          <div class="project-image">
+            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-commerce Store" loading="lazy" />
+            <div class="project-overlay">
+              <span class="project-visit">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">E-commerce Store</h3>
+            <div class="project-tags">
+              <span class="project-tag">E-commerce</span>
+            </div>
+            <p class="project-desc">Custom e-commerce solution with advanced filtering, wishlist, and seamless checkout experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- No Results -->
+      <div class="projects-no-results" id="noResults" style="display: none;">
+        <div class="no-results-icon">&#128269;</div>
+        <h3 class="no-results-title">No projects found</h3>
+        <p class="no-results-text">Try adjusting your search or filter criteria.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content glass animate-fade-up">
+        <h2 class="cta-title">Have a Project in Mind?</h2>
+        <p class="cta-desc">Let's discuss how we can help bring your vision to life with our premium digital solutions.</p>
+        <div class="cta-buttons">
+          <a href="index.html#contact" class="btn btn-primary">Start a Project</a>
+          <a href="https://wa.me/919335723926?text=Hello%20Website%20Crafter,%20I%20would%20like%20to%20discuss%20my%20project." target="_blank" class="btn btn-whatsapp">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <img src="images/WC_Logo.png" alt="Website Crafter Logo" class="footer-logo-img" />
+            <span>Website Crafter</span>
+          </a>
+          <p class="footer-tagline">Connecting Your Brand to the World</p>
+          <div class="footer-social">
+            <a href="https://wa.me/919335723926" target="_blank" class="social-link" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="mailto:websitecrafterofficial@gmail.com" class="social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="tel:+919335723926" class="social-link" aria-label="Phone">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/919335723926?text=Hello%20Website%20Crafter,%20I%20need%20a%20Shopify%20website." target="_blank">Shopify Development</a></li>
+            <li><a href="https://wa.me/919335723926?text=Hello%20Website%20Crafter,%20I%20need%20help%20updating%20my%20website%20theme." target="_blank">Theme Customization</a></li>
+            <li><a href="https://wa.me/919335723926?text=Hello%20Website%20Crafter,%20I%20need%20website%20management%20services." target="_blank">Website Management</a></li>
+            <li><a href="https://wa.me/919335723926?text=Hello%20Website%20Crafter,%20I%20am%20interested%20in%20Meta%20Ads%20services." target="_blank">Meta Ads</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Website Crafter. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="floating-buttons">
+    <a href="tel:+919335723926" class="floating-btn floating-call" aria-label="Call Now">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      <span class="floating-label">Call Now</span>
+    </a>
+    <a href="https://wa.me/919335723926" target="_blank" class="floating-btn floating-whatsapp" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="floating-label">WhatsApp</span>
+    </a>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
