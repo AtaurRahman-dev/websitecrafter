@@ -500,3 +500,31 @@
     });
   }
 })();
+
+
+
+// Initialize Carousel
+document.addEventListener('DOMContentLoaded', function () {
+  const swiper = new Swiper('.work-carousel', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    loop: true, // Creates an infinite loop of the 6 images
+    coverflowEffect: {
+      rotate: 40,      // Rotation angle of side slides
+      stretch: 0,      // Space between slides
+      depth: 150,      // Depth of 3D effect (how far back side slides go)
+      modifier: 1,     // Effect multiplier
+      slideShadows: true, // Enables realistic shadows on the sides
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+});

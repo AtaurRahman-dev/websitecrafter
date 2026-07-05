@@ -1855,3 +1855,100 @@ button {
     padding: var(--space-4);
   }
 }
+
+
+
+/* Carousel Container */
+.work-carousel {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden; 
+}
+
+/* Individual Slide Sizing */
+.work-carousel .swiper-slide {
+  width: 85%; 
+  max-width: 380px; /* Caps the width on larger screens */
+  height: auto; 
+}
+
+/* Reset your work-card for the slide environment */
+.work-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px; /* Example border radius */
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image container sizing to keep uniformity */
+.work-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* This perfectly scales the image width vs height */
+  /* Fallback for older browsers if aspect-ratio isn't supported: */
+  /* height: 200px; */ 
+  overflow: hidden;
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top; /* Ensures the top of the website screenshots isn't cut off */
+}
+
+/* Swiper Theme Colors (Optional override) */
+.swiper-pagination-bullet-active {
+  background: #333; /* Change to your brand's primary color */
+}
+.swiper-button-next, .swiper-button-prev {
+  color: #333; /* Change to your brand's primary color */
+}
+
+/* Container for the View All Projects button */
+.work-cta {
+  margin-top: 40px; /* Adds clean breathing room above the button */
+  display: flex; 
+  justify-content: center; /* Centers the button perfectly */
+  width: 100%;
+}
+
+/* Specific styling to make the button smaller */
+.work-cta .btn {
+  width: auto; /* Stops the button from stretching to full width */
+  padding: 12px 32px; /* Adjusts the internal spacing (top/bottom left/right) */
+  font-size: 15px; /* Slightly smaller text for a refined look */
+  border-radius: 8px; /* Optional: adjust if you want rounder/sharper corners */
+}
+
+/* Updated to display images as wide banners */
+
+.service-image-wrapper {
+  width: 100%;         /* Forces the image to span the full width of the card */
+  aspect-ratio: 16 / 10; /* Replaced height with aspect-ratio to scale perfectly on all screens */
+  margin-bottom: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Changed back to cover to eliminate empty space */
+  transition: transform 0.4s ease;
+}
+
+/* Hover effect */
+.service-card:hover .service-image-wrapper img {
+  transform: scale(1.05); /* Smooth zoom effect on hover */
+}
