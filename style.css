@@ -352,6 +352,12 @@ button {
   background-clip: text;
 }
 
+.highlight-crafter {
+  -webkit-text-fill-color: #e3ae4c; /* Overrides the transparent fill */
+  color: #d8ae5e; /* Standard color fallback */
+  background: none; /* Removes the gradient background from this word */
+}
+
 .hero-subtitle {
   font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   font-weight: 500;
@@ -1952,3 +1958,4 @@ button {
 .service-card:hover .service-image-wrapper img {
   transform: scale(1.05); /* Smooth zoom effect on hover */
 }
+
