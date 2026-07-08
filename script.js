@@ -62,7 +62,7 @@
     const mobileMenu = document.getElementById('mobileMenu');
     if (!hamburger || !mobileMenu) return;
 
-    const mobileLinks = mobileMenu.querySelectorAll('.mobile-nav-link');
+    const mobileLinks = mobileMenu.querySelectorAll('.mobile-nav-link, .mobile-nav-cta');
 
     function toggleMenu() {
       const isOpen = hamburger.classList.toggle('active');
